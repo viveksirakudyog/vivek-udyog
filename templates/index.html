@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <title>विवेक सिरक तथा डसना उद्योग</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        .proprietor {
+            font-size: 20px;
+            color: #f1c40f;
+            margin-top: 8px;
+            font-weight: bold;
+        }
+        .tagline {
+            font-size: 16px;
+            color: #ecf0f1;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+        .contact-info {
+            margin-top: 15px;
+            font-size: 16px;
+        }
+        .contact-info a {
+            color: #2ecc71;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        .content {
+            margin-top: 30px;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #eef2f3;
+            padding: 15px;
+            border-radius: 6px;
+            width: 42%;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .address-box {
+            margin-top: 25px;
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #ffeeba;
+            font-size: 18px;
+            font-weight: bold;
+            color: #856404;
+        }
+        .form-section {
+            margin-top: 30px;
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .btn {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #34495e;
+        }
+    </style>
+    <script>
+        function sendToWhatsApp(event) {
+            event.preventDefault();
+            let name = document.getElementById('name').value;
+            let phone = document.getElementById('phone').value;
+            let service = document.getElementById('service').value;
+            let message = document.getElementById('message').value;
+
+            let whatsappUrl = https://wa.me/919470063240?text=Namaste!%20Mero%20naam%20${encodeURIComponent(name)}%20ho.%20Mera%20phone%20number%20${encodeURIComponent(phone)}%20ho.%20Maile%20${encodeURIComponent(service)}%20ko%20laagi%20booking%20garmi%20chhu.%20Bibran:%20${encodeURIComponent(message)};
+            
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>विवेक सिरक तथा डसना उद्योग</h1>
+        <div class="proprietor">प्रो० वीरेन्द्र प्रसाद</div>
+        <div class="tagline">हामीकहाँ पुरानो कपडा फिटर, नयाँ डसना, सिरक, सिरानी ट्र्याक्टर मेसिनबाट बनाईन्छ। साथै नयाँ कपडाको लागि पनि सम्झनुहोला!</div>
+        <div class="contact-info">
+            📞 फोन: <a href="tel:+9779840950942">+977 9840950942</a> | 
+            💬 WhatsApp: <a href="https://wa.me/919470063240" target="_blank">+91 9470063240</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <h2>हाम्रा प्रमुख सेवाहरू</h2>
+        <div class="services">
+            <div class="card">
+                <h3>🛏️ डसना, सिरक र सिरानी</h3>
+                <p>ट्र्याक्टर मेसिनबाट गुणस्तरीय नयाँ डसना, सिरक र सिरानी तयार गरिन्छ।</p>
+            </div>
+            <div class="card">
+                <h3>🔄 पुरानो कपडा फिटर</h3>
+                <p>तपाईंको पुरानो कपडालाई मेसिनद्वारा रिसाइकल गरी रुई र नयाँ सामान बनाइन्छ।</p>
+            </div>
+            <div class="card">
+                <h3>✨ नयाँ कपडाको सेवा</h3>
+                <p>हामीकहाँ नयाँ कपडासम्बन्धी कामको लागि पनि सम्पर्क गर्न सक्नुहुन्छ।</p>
+            </div>
+            <div class="card">
+                <h3>🛋️ कम्बल तथा अन्य</h3>
+                <p>जाडोको लागि आरामदायी न्यानो कम्बलहरू पनि उपलब्ध छन।</p>
+            </div>
+        </div>
+
+        <!-- Address Section -->
+        <div class="address-box">
+            📍 ठेगाना: प्युठान नगरपालिका-२, क्वाडी
+        </div>
+    </div>
+
+    <!-- Booking aur Contact Form -->
+    <div class="form-section">
+        <h2>अहिले नै बुकिङ वा सम्पर्क गर्नुहोस्</h2>
+        <form onsubmit="sendToWhatsApp(event)">
+            <div class="form-group">
+                <label>तपाईको नाम (Your Name):</label>
+                <input type="text" id="name" placeholder="आफ्नो नाम लेख्नुहोस्" required>
+            </div>
+            <div class="form-group">
+                <label>फोन नम्बर (Phone Number):</label>
+                <input type="tel" id="phone" placeholder="सम्पर्क नम्बर लेख्नुहोस्" required>
+            </div>
+            <div class="form-group">
+                <label>सेवा छान्नुहोस् (Select Service):</label>
+                <select id="service">
+                    <option value="Purano Kapda Fiter / Rui">पुरानो कपडा फिटर / रुई (Fiter / Rui)</option>
+                    <option value="Naya Dasna, Sirak ra Sirani">नयाँ डसना, सिरक र सिरानी (Dasna / Sirak)</option>
+                    <option value="Naya Kapda Seva">नयाँ कपडा सेवा (New Cloth)</option>
+                    <option value="Kambal Booking">कम्बल बुकिङ (Kambal)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>सन्देश वा विवरण (Message):</label>
+                <textarea id="message" rows="4" placeholder="थप विवरण लेख्नुहोस्..."></textarea>
+            </div>
+            <button type="submit" class="btn">WhatsApp मा बुकिङ पठाउनुहोस्</button>
+        </form>
+    </div>
+
+</body>
+</html>
